@@ -1,0 +1,162 @@
+P{
+  color:#454343;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+#container{
+  width:80%;
+  margin:0 auto;
+}
+
+body{
+  background-color: #fffcdd;
+      }
+
+h1{
+  font-family:'Bree Serif', serif;
+  font-size: 30pt;
+  margin-bottom: 0;
+  }
+
+
+#note{
+  font-family:'Roboto', sans-serif;
+  font-weight:700;
+  font-size:12pt;
+  color:#2e271d;
+  /* margin-top: 0; */
+  margin-left: 23px;
+    }
+
+h2 {
+  font-family:'Lexend Deca', sans-serif;
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+}
+
+#nav{
+  padding: 0;
+  list-style-type: none;
+}
+
+#nav li{
+  margin:0;
+  padding:0;
+  border-bottom: 1px solid #ccc;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav{
+  display:flex;
+  flex-direction: column;
+}
+
+
+#nav a:link, #nav a:visited{
+  display:block;
+  color:#ffffff;
+  background-color: #0f0d09;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  padding: 4px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+#nav a:hover, #nav a:active{
+  background-color: #7B6841;
+}
+
+.job{
+  color: #4c492a;
+  font-weight: 600;
+}
+
+/* .caption{
+  text-align: left;
+  color:black;
+  font-family:Georgia, "Times New Roman", serif;
+  margin-top: 0;
+  font-size: 0.8em;
+  font-style: italic;
+} */
+
+.pic{
+  margin-bottom: 0;
+}
+
+img{
+  border:none;
+
+}
+
+#footer{
+  font-family:Georgia, "Times New Roman", serif;
+  font-size:0.8em;
+  border-top: 0.8px solid black;
+}
+
+header{
+  display:flex;
+  flex-flow:row;
+}
+
+.menu-trigger{
+  order:1;
+}
+
+header h1{
+  order:2;
+  margin-top: 0;
+  margin-left: 10px;
+}
+
+#nav {
+  display:none;
+}
+
+@media screen and (min-width:600px) {
+  #nav li{
+    border-right: 1px solid #ccc;
+    }
+
+  #nav{
+    display:flex;
+    flex-direction:row;
+    order:2;
+  }
+
+  .menu-trigger{
+    display:none;
+  }
+
+  header h1{
+    order:1;
+  }
+
+  p{
+    max-width: 900px;
+  }
+
+  #nav{
+    margin-left: 100px;
+  }
+
+}
+
+/* @media screen and (min-width: 800px){
+  p{
+    max-width: 900px;
+  }
+
+  #nav{
+    margin-left: 50px;
+  }
+} */
