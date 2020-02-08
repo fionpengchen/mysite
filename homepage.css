@@ -122,6 +122,10 @@ header h1{
   display:none;
 }
 
+.outlet{
+  margin-top: 60px;
+}
+
 @media screen and (min-width:600px) {
   #nav li{
     border-right: 1px solid #ccc;
